@@ -1,8 +1,43 @@
 body {
-  padding: 50px;
+  margin: 0;
+  padding: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.index {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-image: url("../images/cinema.jpg");
+  background-size: cover;
+  min-height: 100vh; /* Mínimo 100% del alto de la ventana gráfica */
+  margin: 0;
+  padding: 0;
+}
+
+.index h1 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-align: left;
+  font-size: 100px;
+  position: absolute;
+  left: 1150px;
+  top: 200px;
+}
+
+.index button {
+  padding: 20px 30px;
+  position: absolute;
+  left: 1150px;
+  top: 450px;
+  border-radius: 30px;
+  background-color: white;
+  text-decoration: none;
+  color: #40a160;
+  font-size: 20px;
 }
