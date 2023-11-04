@@ -41,3 +41,45 @@ a {
   color: #40a160;
   font-size: 20px;
 }
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.movies-header {
+  padding-left: 45px;
+  text-align: left;
+}
+
+.one-movie {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-title {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.see-more {
+  margin-bottom: 30px;
+}
+
+.details {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.details img {
+  margin: 30px;
+}
+
+.details p {
+  max-width: 500px;
+}
